@@ -1,10 +1,13 @@
-let a = 10;
-let b = 5;
+let nombre1 = prompt("Entrez le premier nombre :");
+let nombre2 = prompt("Entrez le deuxième nombre :");
 
-let somme = a + b;
-let difference = a - b;
-let produit = a * b;
-let division = a / b;
+nombre1 = Number(nombre1);
+nombre2 = Number(nombre2);
+
+const somme = nombre1 + nombre2;
+const difference = nombre1 - nombre2;
+const produit = nombre1 * nombre2;
+const division = nombre1 / nombre2;
 
 console.log("Somme: " + somme);
 console.log("Différence: " + difference);
