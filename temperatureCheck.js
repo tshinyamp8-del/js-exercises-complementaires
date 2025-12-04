@@ -8,8 +8,6 @@ if (temp < 0) {
     console.log("Agréable");
 } else if (temp <= 35) {
     console.log("Chaud");
-
 } else {
     console.log("Canicule");
 }
-
